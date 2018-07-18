@@ -1,0 +1,16 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production NODE_PATH=. index.js",
+    "dev": "cross-env NODE_ENV=development  NODE_PATH=. index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "moment": "^2.22.2"
+  }
+}
